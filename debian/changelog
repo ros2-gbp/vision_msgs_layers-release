@@ -1,0 +1,9 @@
+ros-galactic-vision-msgs-layers (0.0.1-1focal) focal; urgency=high
+
+  * Ensure dependencies are exported (#8 <https://github.com/ros-sports/vision_msgs_layers/issues/8>)
+  * Add bounding box 2d layer
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 28 Oct 2022 15:00:00 -0000
+
+
