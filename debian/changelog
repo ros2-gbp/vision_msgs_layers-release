@@ -1,0 +1,9 @@
+ros-rolling-vision-msgs-layers (0.2.0-3noble) noble; urgency=high
+
+  * Ensure dependencies are exported (#7 <https://github.com/ros-sports/vision_msgs_layers/issues/7>)
+  * Add bounding box 2d layer
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 29 Oct 2022 00:00:00 -0000
+
+
