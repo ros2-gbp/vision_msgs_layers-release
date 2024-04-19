@@ -1,0 +1,12 @@
+Source: ros-jazzy-vision-msgs-layers
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rqt-image-overlay-layer, ros-jazzy-vision-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-vision-msgs-layers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rqt-image-overlay-layer, ros-jazzy-vision-msgs, ros-jazzy-ros-workspace
+Description: Collection of RQt Image Overlay Plugins for Vision Msgs
