@@ -1,0 +1,12 @@
+Source: ros-kilted-vision-msgs-layers
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-ros, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-rqt-image-overlay-layer, ros-kilted-vision-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-vision-msgs-layers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-rqt-image-overlay-layer, ros-kilted-vision-msgs, ros-kilted-ros-workspace
+Description: Collection of RQt Image Overlay Plugins for Vision Msgs
