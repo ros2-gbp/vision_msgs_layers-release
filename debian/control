@@ -1,0 +1,12 @@
+Source: ros-lyrical-vision-msgs-layers
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rqt-image-overlay-layer, ros-lyrical-vision-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/vision_msgs_layers/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-vision-msgs-layers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-rqt-image-overlay-layer, ros-lyrical-vision-msgs, ros-lyrical-ros-workspace
+Description: Collection of RQt Image Overlay Plugins for Vision Msgs
